@@ -1,0 +1,83 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+$xl: 1440px;
+$lg: 1200px;
+$md: 768px;
+$sm: 576px;
+
+#wrapper-navbar {
+	.top-header-holder {
+		height: 150px;
+		background: #f8f8f8;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+		@media (max-width: $lg) {
+			flex-direction: column;
+			height: 300px;
+		}
+
+		.header-contact-container {
+			margin: auto;
+			font-family: "Roboto", sans-serif;
+			font-size: 20px;
+			flex-grow: 1;
+
+			@media (max-width: $sm) {
+				font-size: 1em;
+			}
+
+			> * {
+				display: inline-block;
+			}
+
+			.header-item {
+				text-align: center;
+			}
+		}
+
+		.image-container {
+			flex-grow: 1.5;
+			display: flex;
+			img {
+				padding: 20px;
+				margin: auto;
+			}
+		}
+	}
+}
+
+#main-nav {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 28px;
+
+	ul {
+		flex: 1;
+		justify-content: space-between;
+
+		li {
+			a {
+				color: #4e7cb2;
+				transition: 0.25s ease all;
+
+				&:hover {
+					background: #eb5c6b;
+					color: white;
+					border-radius: 10px;
+				}
+			}
+		}
+	}
+}
+
+body {
+	font-family: "Frank Ruhl Libre", serif;
+}
+
+.home-banner {
+	height: 400px;
+	background-image: url("../img/Banner.jpg");
+	background-size: cover;
+}
