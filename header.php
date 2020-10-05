@@ -26,8 +26,37 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
 
+
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
+		
+		<div class="top-header-holder">
+
+			<div class="image-container">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Simon Berry logo">
+			</div>
+
+			<div class="header-contact-container">
+				<i class="fa fa-map"></i>
+				<a href="https://goo.gl/maps/NHAmEHva3zuFs6bM9" target="_blank" rel="noopener noreferrer" class="header-item">41 Marshall Terrace, Durham, DH1 2HX</a>
+			</div>
+
+			<div class="header-contact-container">
+				<i class="fa fa-phone"></i>
+				<a href="tel:+01913757544" class="header-item">0191 375 75 44</a>
+			</div>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" 
+				aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="menu-title">
+					Menu
+				</div>
+			</button>
+		</div>
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -44,9 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			
 					
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				
 
 				<!-- The WordPress Menu goes here -->
 				<?php
@@ -69,20 +96,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		</nav><!-- .site-navigation -->
 
-		<div class="top-header-holder">
-			<div class="image-container">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Simon Berry logo">
-			</div>
-
-			<div class="header-contact-container">
-				<i class="fa fa-map"></i>
-				<a href="https://goo.gl/maps/NHAmEHva3zuFs6bM9" target="_blank" rel="noopener noreferrer" class="header-item">41 Marshall Terrace, Durham, DH1 2HX</a>
-			</div>
-
-			<div class="header-contact-container">
-				<i class="fa fa-phone"></i>
-				<a href="tel:+01913757544" class="header-item">0191 375 75 44</a>
-			</div>
-		</div>
+		
 
 	</div><!-- #wrapper-navbar end -->

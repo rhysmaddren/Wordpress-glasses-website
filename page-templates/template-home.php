@@ -14,8 +14,21 @@ get_header();
 ?>
 
 <div class="home-banner">
-
+    <p class="banner-text">Seeing is believing</p>
 </div>
+
+<section class="welcome-section">
+    <h1>Welcome to Simon Berry Optometrist</h1>
+    <p>
+        Thank you for visiting Simon Berry Optometrist, and a 
+        warm welcome to our website. Our professional 
+        independent eyecare practice provides a friendly,
+        customer-focused service to the fantastic people 
+        our local community, but offers a diverse range of
+        services that people from all over the world come 
+        to our practice for. 
+    </p>
+</section>    
 
 
 <?php
