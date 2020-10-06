@@ -46,10 +46,59 @@ get_header();
         </a>
 
     </section>
+
+    <div class="frames-container">
+
+        <h2>Frames</h2>
+
+        <section class="frames-boxes">
+        
+            <a href="#" class="frames frames-designer">
+                <p class="frames-text">Designer</p>
+            </a>
+
+            <a href="#" class="frames frames-everyday">
+                <p class="frames-text">Everyday</p>
+            </a>
+
+            <a href="#" class="frames frames-specialist">
+                <p class="frames-text">Specialist</p>
+            </a>
+
+            <a href="#" class="frames frames-sunglasses">
+                <p class="frames-text">Sunglasses</p>
+            </a>
+        
+        </section>
+    </div>
     
+    <section class=awards-container>
+        <h3 class="awards-header">Awards and accreditations</h3>
+        <div class="awards-image-container">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/vision_awards.jpg" alt="Vision pioneer award" class="award-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/living-north.png" alt="Living North award" class="award-image">
+        </div>
+        <p class="awards-text">
+            In 2017, Simon’s campaign for changing the regulation around 
+            special facial characteristics results in the Vision Pioneer 
+            Campaigner of the Year Award. Simon wanted all his patients, 
+            especially children with Down Syndrome, to be able to receive 
+            a better level of service, and for this practice to be adopted 
+            as widely as possible, to help as many people receive the level
+             of optometry service they need.
+        </p>
+    </section>
 
 </div>
-    
+
+<nav href="#" class="logo-container">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/coco_song.png" alt="Coco song logo" class="logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/levis.png" alt="Levis logo" class="logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/lindberg.png" alt="Lindberg logo" class="logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/wolf.png" alt="Wolf logo" class="logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/swissflex.png" alt="Swissflex logo" class="logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/vinylfactory.png" alt="vinyl factory logo" class="logo">
+</nav>
 
 
 <?php
