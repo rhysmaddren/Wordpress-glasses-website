@@ -17,8 +17,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Glasses portfolio website"/>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
+	<link rel="icon" 
+      type="image/png" 
+      href="<?php echo get_template_directory_uri(); ?>/img/eye_only.png"> 
 	<?php wp_head(); ?>
 </head>
 

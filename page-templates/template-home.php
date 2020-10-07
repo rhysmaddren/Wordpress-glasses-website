@@ -33,7 +33,7 @@ get_header();
 
     <section class="action-container">
 
-        <a href="#" class="call-to-action action-services">
+        <a href="http://glasseswebsiteexample.local/services/" class="call-to-action action-services">
             <p class="action-text">Services</p>
         </a>
 
@@ -53,19 +53,19 @@ get_header();
 
         <section class="frames-boxes">
         
-            <a href="#" class="frames frames-designer">
+            <a href="http://glasseswebsiteexample.local/frames/" class="frames frames-designer">
                 <p class="frames-text">Designer</p>
             </a>
 
-            <a href="#" class="frames frames-everyday">
+            <a href="http://glasseswebsiteexample.local/frames/" class="frames frames-everyday">
                 <p class="frames-text">Everyday</p>
             </a>
 
-            <a href="#" class="frames frames-specialist">
+            <a href="http://glasseswebsiteexample.local/frames/" class="frames frames-specialist">
                 <p class="frames-text">Specialist</p>
             </a>
 
-            <a href="#" class="frames frames-sunglasses">
+            <a href="http://glasseswebsiteexample.local/frames/" class="frames frames-sunglasses">
                 <p class="frames-text">Sunglasses</p>
             </a>
         
@@ -91,14 +91,14 @@ get_header();
 
 </div>
 
-<nav href="#" class="logo-container">
+<a href="http://glasseswebsiteexample.local/frames/" class="logo-container">
     <img src="<?php echo get_template_directory_uri(); ?>/img/coco_song.png" alt="Coco song logo" class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/levis.png" alt="Levis logo" class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/lindberg.png" alt="Lindberg logo" class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/wolf.png" alt="Wolf logo" class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/swissflex.png" alt="Swissflex logo" class="logo">
     <img src="<?php echo get_template_directory_uri(); ?>/img/vinylfactory.png" alt="vinyl factory logo" class="logo">
-</nav>
+</a>
 
 
 <?php

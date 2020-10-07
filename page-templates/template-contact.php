@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Services
+ * Template Name: Contact
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -18,7 +18,7 @@ if ( is_front_page() ) {
 }
 ?>
 
-Services coming soon
+Contacts coming soon
 
 <?php
 get_footer();
